@@ -1,5 +1,5 @@
 <ons-page id="tabbar">
-    <ons-toolbar>
+    <ons-toolbar style="background: -webkit-linear-gradient(left, #5C8FEC,#3FA3D9 ,#6CD4F1)">
         <div class="left">
             <!-- Toolbar-button with different icons depending on the platform. -->
             <ons-toolbar-button component="button/menu" id="menubtn">
@@ -14,15 +14,17 @@
         </div>
 
     </ons-toolbar>
+    <div style="background: -webkit-linear-gradient(left, #5C8FEC,#3FA3D9 ,#6CD4F1)">
     <!-- Auto-positioned Tabbar: top on Android, bottom on iOS/other. -->
-    <ons-tabbar id="myTabbar" position="auto">
-        <ons-tab page="home.html" icon="md-home" label="Home" active>
+    <ons-tabbar id="myTabbar" position="auto" style="background: -webkit-linear-gradient(left, #5C8FEC,#3FA3D9 ,#6CD4F1)">
+        <ons-tab page="home.html" icon="md-home" label="Home"  active>
         </ons-tab>
-        <ons-tab page="shop.html" icon="ion-md-restaurant" label="Shop">
+        <ons-tab page="shop.html" icon="ion-md-restaurant" label="Shop" >
         </ons-tab>
-        <ons-tab page="cart.html" icon="fa-shopping-cart" label="Cart">
+        <ons-tab page="cart.html" icon="fa-shopping-cart" label="Cart" >
         </ons-tab>
         <!-- <ons-tab page="ListStarbuck.html" icon="ion-md-list" label="List">
         </ons-tab> -->
     </ons-tabbar>
+</div>
 </ons-page>
