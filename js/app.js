@@ -4,10 +4,11 @@
     authDomain: "fastfood-4d4ff.firebaseapp.com",
     databaseURL: "https://fastfood-4d4ff.firebaseio.com",
     projectId: "fastfood-4d4ff",
-    storageBucket: "fastfood-d742f.appspot.com",
-    messagingSenderId: "959087323418",
-    appId: "1:959087323418:web:c926ea3dd9d34a2f64a4a3"
-   };
+    storageBucket: "fastfood-4d4ff.appspot.com",
+    messagingSenderId: "118590463295",
+    appId: "1:118590463295:web:24ae91644a43dd74c0c78a",
+    measurementId: "G-7TR6CEME96"
+  };
    firebase.initializeApp(firebaseConfig);
 
    var db = firebase.firestore();
